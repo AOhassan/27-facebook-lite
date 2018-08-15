@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/facebookFront"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/facebookfront"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:background="@color/facebookwhite"
+        android:text="Use This App To Learn More About My Gaming Friends"
+        android:textSize="50sp"
+        app:layout_constraintTop_toBottomOf="@id/facebookFront"
+        app:layout_constraintBottom_toTopOf="@id/viewFriends"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/viewFriends"
+        android:background="@color/facebookblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="30sp"
+        android:text="View Friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/facebookwhite"/>
+
+</android.support.constraint.ConstraintLayout>
