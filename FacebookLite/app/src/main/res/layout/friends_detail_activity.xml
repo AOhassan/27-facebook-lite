@@ -18,11 +18,12 @@
             android:textAlignment="center"
             android:textSize="90sp"/>
         <TextView
-            android:id="@+id/description"
+            android:id="@+id/bio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="description"
-            android:textSize="30sp" />
+            android:text="Bio"
+            android:textAlignment="center"
+            android:textSize="40sp" />
     </LinearLayout>
 
     <LinearLayout
