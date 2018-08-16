@@ -14,15 +14,15 @@ import com.example.ahmedosman.facebooklite.models.Friends;
 public class FriendActivity extends AppCompatActivity {
     Friends[] friends = {
             new Friends("Q", "Very agressive playstyle. Tends to ask for help then ends up getting you killed. " +
-            "                               Somehow always escapes after everybody dies. Great player, but very selfish.\n\"I NEED HELP\" "),
-            new Friends("Jewels", "A pro hiding behind the skills of a noob. " +
-                     "He's comfortable not rushing, but is capable of shredding the entire battlefield. " +
+            "Somehow always escapes after everybody dies. Great player, but very selfish.\n\"I NEED HELP\" "),
+            new Friends("Jewels", "A pro hiding behind the skills of a noob." +
+                     "He's comfortable not rushing, but is capable of shredding the entire battlefield." +
                      "Held back by his camping gene. \n\"They don't know I am here\""),
-            new Friends("Artem", "well rounded player. \n\" Lit \" "),
-            new Friends("Blessed", "Veteran player who's capable of handling his own. Extremely reliable, but a slow learner. " +
+            new Friends("Artem", "well rounded player. \n\" Lit \""),
+            new Friends("Blessed", "Veteran player who's capable of handling his own. Extremely reliable, but a slow learner." +
                      "Specialized in long range combat. \n\"I have to leave\""),
-            new Friends("Jerry", "Alien like skills and a terrifying claw play style. Known as the silent monster. " +
-                     "His skill componsates for his lack of communication. \n\"Unbelievable\" ")
+            new Friends("Jerry", "Alien like skills and a terrifying claw play style. Known as the silent monster." +
+                     "His skill componsates for his lack of communication. \n\"Unbelievable\"")
 };
 
     private Button mQ;
